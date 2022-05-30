@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    margin-left:80px ;
+    margin-right:90px ;
+    margin-top: 40px;
+    
+    
+}
+.N-name{
+    display: flex;
+    flex: 1;
+    font-family:monospace;
+    font-weight: bold;
+    font-size:medium;
+    position: fixed;
+    
+
+}
+
+.N-list{
+    display: flex;
+    flex: 1;
+    margin-right: 30px;
+    font-family: monospace;
+    font-size:18px;
+    cursor: pointer;
+   
+    
+
+}
+.list:hover{
+    color:blueviolet;
+    border-bottom: 1px solid violet;
+}
+
+.lst{
+    display: flex;
+    gap: 2rem;
+    position: fixed;
+    text-align: right;
+    margin-left: 900px;
+}
+
+@media screen and (max-width: 1000px) {
+    .list{
+        visibility: hidden;
+    }
+    
+}

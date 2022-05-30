@@ -1,0 +1,86 @@
+.contact{
+    margin-top: 110px;
+    height:89vh;
+    padding-top: 50px;
+}
+.c-me{
+    font-weight: bolder;
+    font-size:xx-large;
+    color: blueviolet;
+}
+.c-get{
+    font-style: italic;
+    font-size: large;
+    color:dimgray;
+}
+.c-sec{
+    display: flex;
+    margin-left: 250px;
+}
+.c-sec1{
+    display: flex;
+    flex: 1;
+    margin-left: 100px;
+    height:360px
+}
+
+
+.c-list li{
+    line-height: 5em;
+    font-weight: bold;
+    text-align: left;
+    color: blueviolet;
+}
+.c-list li h6{
+    font-weight: lighter !important;
+    line-height:0px;
+    color: dimgray;
+
+}
+.c-list li h6:hover{
+    cursor: pointer;
+}
+.c-sec2{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+    padding-left: 350px;
+    padding-top: 30px;
+}
+.c-sec2 form{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    position: absolute;
+    left:0;
+}
+
+.user{
+    width:20rem;
+    height:2rem;
+    padding: 0.3rem;
+    outline: none;
+    border:3px solid blueviolet;
+    border-radius: 8px;
+    font-size: 16px;
+}
+textarea{
+    height: 8rem!important;
+}
+#btn{
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    color: antiquewhite;
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+}
+.c-icons li{
+    color: blueviolet;
+    height: 80px;
+    margin-right: 20px;
+    padding-top: 35px;
+    padding-left: 80px;
+}

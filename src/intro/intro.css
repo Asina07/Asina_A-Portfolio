@@ -1,0 +1,130 @@
+.intro{
+    display: flex;
+    margin-top: 100px;
+    height: 87vh;
+    margin-right: 500px;
+    position: relative;
+    padding-top: 50px;
+    
+}
+.i-left{
+    display: flex;
+    flex: 1;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 180px;
+    position: relative;
+}
+.i-left :nth-child(1){
+    font-size: xx-large;
+    font-weight:bolder;
+    font-style: oblique;
+}
+.i-left :nth-child(2){
+    font-size: xx-large;
+    font-weight:bolder;
+    font-style: oblique;
+    
+}.i-left :nth-child(3){
+    margin-top: 10px;
+    font-weight: bold;
+    color: blueviolet;
+
+}
+.i-left p{
+    text-align:left;
+    width: 500px;
+    margin-top: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+.btn{
+    margin-top: 15px;
+    border: 1px solid violet; 
+    width: 160px;
+    height:50px;
+    border-radius: 10%;
+    background-color: blueviolet;
+    color:antiquewhite;
+    text-align: center;
+    font-size:3px;
+
+}
+.i-icon{
+    display: flex;
+    width: 40px;
+    margin-top: 40px;
+    column-gap: 20px;
+    margin-left: 300px;
+    height: max-content;
+    cursor: pointer;
+    list-style: none;
+    color: blueviolet;
+    display:inline-flex;
+    
+}
+.i-icon :nth-child(1){
+    margin-top: 10px; 
+}
+.i-icon :nth-child(2){
+    margin-top: 10px; 
+   
+}
+
+
+
+.i-right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    
+ 
+}
+.i-right :nth-child(1){
+    margin-left: 250px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.i-right :nth-child(2){
+    border-radius: 120px;
+    width:200px;
+    margin-left: 300px;
+    position: relative;
+    bottom: 270px;
+    border-color: blueviolet;
+}
+
+@media screen and   (max-width:480px) {
+    .intro{
+        flex-direction: column!important;
+        display: flex;
+        margin-right: 5;
+
+    }
+    .i-left{
+        display: flex;
+        flex: 1;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 180px;
+        position: relative;
+        
+    }
+    
+        
+    
+    .i-right{
+        /* position: absolute;
+        bottom:1;
+        width: 120%; */
+        visibility: collapse;
+
+       
+    
+        
+    }
+}
